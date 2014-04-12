@@ -7,6 +7,7 @@
 	{{ HTML::style('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css') }}
 	{{ HTML::style('css/dist/style.css') }}
 	<title>Robin Mitra</title>
+	<meta name="p:domain_verify" content="db367218c11781ba1fba623aeb1cc396"/>
 </head>
 <body>
 <script>
