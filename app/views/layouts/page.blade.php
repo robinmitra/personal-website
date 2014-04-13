@@ -3,6 +3,6 @@
 @section('content')
 <div id="main-body">
 	<h1 class="page-heading">{{ $page->title }}</h1>
-	<div>{{ $page->body }}</div>
+	{{ $page->body }}
 </div>
 @stop
