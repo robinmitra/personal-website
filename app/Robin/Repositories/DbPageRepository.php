@@ -1,6 +1,12 @@
-<?php namespace Robin\Repositories
+<?php namespace Robin\Repositories;
 
-class DbPageRepository
+use Page;
+
+class DbPageRepository implements PageRepositoryInterface
 {
+	public function findByName($name)
+	{
+		return Page::where('name', '=', $name)->first();
+	}
 
-} 
+}
