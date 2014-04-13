@@ -1,10 +1,10 @@
 <?php
 
- class PortfolioControllerTest extends TestCase
+ class ProjectsControllerTest extends TestCase
  {
 	 public function testListWork()
 	 {
-		 $this->call('GET', 'portfolio');
-		 $this->assertResponseOk();
+		 $this->call('GET', 'projects');
+		 $this->assertViewHas('projects');
 	 }
  }
