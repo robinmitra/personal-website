@@ -2,8 +2,7 @@
 
 @section('content')
 <div id="main-body">
-	<h1 class="page-heading">Welcome</h1>
-	<p><strong>Hello there!</strong></p>
-	<p>My name is Robin, and this is my personal website.</p>
+	<h1 class="page-heading">{{ $page->title }}</h1>
+	<div>{{ $page->body }}</div>
 </div>
 @stop
